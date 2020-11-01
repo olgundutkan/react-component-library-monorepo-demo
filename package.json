@@ -2,10 +2,11 @@
   "name": "react-component-library-monorepo",
   "version": "0.1.0",
   "description": "Another react component library.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/olgundutkan/react-component-library-monorepo-demo.git"
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/olgundutkan/react-component-library-monorepo-demo/issues"
   },
-  "homepage": "https://github.com/olgundutkan/react-component-library-monorepo-demo#readme"
+  "homepage": "https://github.com/olgundutkan/react-component-library-monorepo-demo#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }
