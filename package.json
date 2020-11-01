@@ -1,0 +1,23 @@
+{
+  "name": "react-component-library-monorepo",
+  "version": "0.1.0",
+  "description": "Another react component library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgundutkan/react-component-library-monorepo-demo.git"
+  },
+  "keywords": [
+    "react",
+    "react-component-library"
+  ],
+  "author": "olgundutkan <olgundutkan@gmail.com> (https://github.com/olgundutkan)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olgundutkan/react-component-library-monorepo-demo/issues"
+  },
+  "homepage": "https://github.com/olgundutkan/react-component-library-monorepo-demo#readme"
+}
